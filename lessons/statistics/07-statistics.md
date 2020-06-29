@@ -90,10 +90,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 P(twins | identical_twin) is 1 in this case since the probability that a pair is a twin given that they're
 already identical twins is 100% guaranteed.
 
-We can then use the total probability rule to find P(twin_brothers), which is equal to 
+>> We can then use the total probability rule to find P(twin_brothers), which is equal to 
 P(twin_brothers) = P(twin_brothers | identical_twins)\*P(identical_twins) + P(twin_brothers | fraternal_twins)\*P(fraternal_twins).
 
-The final result is calculated as (1/300) / (1\*1/300 + (1/2)\*(1/125)) = 0.4545
+>> The final result is calculated as (1/300) / (1\*(1/300) + (1/2)\*(1/125)) = 0.4545
 
 ---
 
